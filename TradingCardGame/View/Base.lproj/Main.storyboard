@@ -213,7 +213,9 @@
                         <viewLayoutGuide key="safeArea" id="NTe-AS-UMb"/>
                     </view>
                     <connections>
-                        <outlet property="magicDescriptionTextView" destination="8Wp-GO-n6v" id="bcm-uL-Gyk"/>
+                        <outlet property="magicCardNameLabel" destination="PLU-03-K2W" id="dPf-uO-66K"/>
+                        <outlet property="magicDescriptionTextView" destination="8Wp-GO-n6v" id="yu7-JG-lBL"/>
+                        <outlet property="magicLanguageLabel" destination="XmU-4L-cN3" id="3Nz-hq-FV1"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iW4-Gf-9dF" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -231,20 +233,6 @@
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="tCh-4E-WpQ">
                                 <rect key="frame" x="37.5" y="143.5" width="300" height="400"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="56X-CP-OOd">
-                                        <rect key="frame" x="154" y="136" width="42" height="21"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                        <nil key="textColor"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fcl-UB-yr0">
-                                        <rect key="frame" x="77" y="161" width="42" height="21"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                        <nil key="textColor"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="nuG-9t-FIA">
                                         <rect key="frame" x="30" y="0.0" width="240" height="128"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -318,6 +306,7 @@
                     </view>
                     <connections>
                         <outlet property="pokemonAttackCollectionView" destination="3cx-Pg-CW1" id="Cwd-AX-VCg"/>
+                        <outlet property="pokemonCardImage" destination="nuG-9t-FIA" id="1Xm-nT-5Ky"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ory-nR-ylo" userLabel="First Responder" sceneMemberID="firstResponder"/>
