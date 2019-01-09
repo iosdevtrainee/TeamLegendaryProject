@@ -8,8 +8,8 @@
 
 import UIKit
 
-class ViewController: UIViewController {
-
+class PokemonViewController: UIViewController {
+  @IBOutlet weak var pokemonCardsCollectionView: UICollectionView!
   override func viewDidLoad() {
     super.viewDidLoad()
     // Do any additional setup after loading the view, typically from a nib.
