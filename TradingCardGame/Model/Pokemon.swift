@@ -7,3 +7,21 @@
 //
 
 import Foundation
+
+struct Pokemons: Codable {
+    let cards : [cardInfo]
+}
+
+struct cardInfo: Codable {
+    let name: String
+    let nationalPokedexNumber: Int
+    let imageUrl: String
+    let imageUrlHiRes: String
+    let attacks : [attackInfo]
+}
+
+struct attackInfo: Codable {
+    let name : String
+    let text: String
+    let damage: String
+}

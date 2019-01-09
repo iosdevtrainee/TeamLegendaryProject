@@ -14,6 +14,11 @@
 		0A0D194B21E6600F006CD668 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A0D194921E6600F006CD668 /* LaunchScreen.storyboard */; };
 		0A0D195521E66051006CD668 /* PokemonAPIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A0D195421E66051006CD668 /* PokemonAPIClient.swift */; };
 		0A0D195821E6609C006CD668 /* Pokemon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A0D195721E6609C006CD668 /* Pokemon.swift */; };
+		5531E19321E665AD00A9C961 /* NetworkHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5531E19221E665AD00A9C961 /* NetworkHelper.swift */; };
+		5531E19721E665E500A9C961 /* AppError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5531E19621E665E500A9C961 /* AppError.swift */; };
+		5531E19921E6660800A9C961 /* imageHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5531E19821E6660800A9C961 /* imageHelper.swift */; };
+		5531E19B21E6696C00A9C961 /* Magic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5531E19A21E6696C00A9C961 /* Magic.swift */; };
+		5531E19F21E68F6200A9C961 /* MagicIAPIClient .swift in Sources */ = {isa = PBXBuildFile; fileRef = 5531E19E21E68F6200A9C961 /* MagicIAPIClient .swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +31,11 @@
 		0A0D194C21E6600F006CD668 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0A0D195421E66051006CD668 /* PokemonAPIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokemonAPIClient.swift; sourceTree = "<group>"; };
 		0A0D195721E6609C006CD668 /* Pokemon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pokemon.swift; sourceTree = "<group>"; };
+		5531E19221E665AD00A9C961 /* NetworkHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkHelper.swift; sourceTree = "<group>"; };
+		5531E19621E665E500A9C961 /* AppError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppError.swift; sourceTree = "<group>"; };
+		5531E19821E6660800A9C961 /* imageHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = imageHelper.swift; sourceTree = "<group>"; };
+		5531E19A21E6696C00A9C961 /* Magic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Magic.swift; sourceTree = "<group>"; };
+		5531E19E21E68F6200A9C961 /* MagicIAPIClient .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MagicIAPIClient .swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +100,10 @@
 			isa = PBXGroup;
 			children = (
 				0A0D195421E66051006CD668 /* PokemonAPIClient.swift */,
+				5531E19E21E68F6200A9C961 /* MagicIAPIClient .swift */,
+				5531E19221E665AD00A9C961 /* NetworkHelper.swift */,
+				5531E19621E665E500A9C961 /* AppError.swift */,
+				5531E19821E6660800A9C961 /* imageHelper.swift */,
 			);
 			path = "Network Services";
 			sourceTree = "<group>";
@@ -98,6 +112,7 @@
 			isa = PBXGroup;
 			children = (
 				0A0D195721E6609C006CD668 /* Pokemon.swift */,
+				5531E19A21E6696C00A9C961 /* Magic.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -182,9 +197,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				0A0D195521E66051006CD668 /* PokemonAPIClient.swift in Sources */,
+				5531E19921E6660800A9C961 /* imageHelper.swift in Sources */,
+				5531E19F21E68F6200A9C961 /* MagicIAPIClient .swift in Sources */,
 				0A0D195821E6609C006CD668 /* Pokemon.swift in Sources */,
+				5531E19721E665E500A9C961 /* AppError.swift in Sources */,
+				5531E19321E665AD00A9C961 /* NetworkHelper.swift in Sources */,
 				0A0D194321E6600D006CD668 /* ViewController.swift in Sources */,
 				0A0D194121E6600D006CD668 /* AppDelegate.swift in Sources */,
+				5531E19B21E6696C00A9C961 /* Magic.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -331,8 +351,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 5LS879493P;
+				DEVELOPMENT_TEAM = RFPRDQU6MN;
 				INFOPLIST_FILE = TradingCardGame/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -349,8 +370,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 5LS879493P;
+				DEVELOPMENT_TEAM = RFPRDQU6MN;
 				INFOPLIST_FILE = TradingCardGame/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
