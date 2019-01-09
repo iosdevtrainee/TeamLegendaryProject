@@ -1,0 +1,2 @@
+# TeamLegendaryProject
+Trading Card Game
