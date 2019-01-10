@@ -13,6 +13,15 @@ class PokemonViewController: UIViewController {
   override func viewDidLoad() {
     super.viewDidLoad()
     // Do any additional setup after loading the view, typically from a nib.
+    PokemonAPIClient.PokemonInfo { (error, pokemon) in
+      if let error = error {
+        print(error)
+      }
+      
+      if let pokemon = pokemon {
+        print(pokemon.count)
+      }
+    }
   }
 
 

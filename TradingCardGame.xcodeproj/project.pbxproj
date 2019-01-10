@@ -20,6 +20,11 @@
 		0A0D196221E66614006CD668 /* MagicDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A0D196121E66614006CD668 /* MagicDetailViewController.swift */; };
 		0A0D196421E6661E006CD668 /* PokemonDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A0D196321E6661E006CD668 /* PokemonDetailViewController.swift */; };
 		0A0D196621E66AB7006CD668 /* PokemonAttackDetailCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A0D196521E66AB7006CD668 /* PokemonAttackDetailCell.swift */; };
+		0A87FB7821E7F8DD007CFB12 /* MagicIAPIClient .swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A87FB7421E7F8DC007CFB12 /* MagicIAPIClient .swift */; };
+		0A87FB7921E7F8DD007CFB12 /* NetworkHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A87FB7521E7F8DC007CFB12 /* NetworkHelper.swift */; };
+		0A87FB7A21E7F8DD007CFB12 /* AppError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A87FB7621E7F8DC007CFB12 /* AppError.swift */; };
+		0A87FB7B21E7F8DD007CFB12 /* imageHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A87FB7721E7F8DD007CFB12 /* imageHelper.swift */; };
+		0A87FB7D21E7F8F8007CFB12 /* Magic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A87FB7C21E7F8F8007CFB12 /* Magic.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +43,11 @@
 		0A0D196121E66614006CD668 /* MagicDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagicDetailViewController.swift; sourceTree = "<group>"; };
 		0A0D196321E6661E006CD668 /* PokemonDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokemonDetailViewController.swift; sourceTree = "<group>"; };
 		0A0D196521E66AB7006CD668 /* PokemonAttackDetailCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokemonAttackDetailCell.swift; sourceTree = "<group>"; };
+		0A87FB7421E7F8DC007CFB12 /* MagicIAPIClient .swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "MagicIAPIClient .swift"; sourceTree = "<group>"; };
+		0A87FB7521E7F8DC007CFB12 /* NetworkHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkHelper.swift; sourceTree = "<group>"; };
+		0A87FB7621E7F8DC007CFB12 /* AppError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppError.swift; sourceTree = "<group>"; };
+		0A87FB7721E7F8DD007CFB12 /* imageHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = imageHelper.swift; sourceTree = "<group>"; };
+		0A87FB7C21E7F8F8007CFB12 /* Magic.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Magic.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +114,10 @@
 		0A0D195621E66060006CD668 /* Network Services */ = {
 			isa = PBXGroup;
 			children = (
+				0A87FB7621E7F8DC007CFB12 /* AppError.swift */,
+				0A87FB7721E7F8DD007CFB12 /* imageHelper.swift */,
+				0A87FB7421E7F8DC007CFB12 /* MagicIAPIClient .swift */,
+				0A87FB7521E7F8DC007CFB12 /* NetworkHelper.swift */,
 				0A0D195421E66051006CD668 /* PokemonAPIClient.swift */,
 			);
 			path = "Network Services";
@@ -112,6 +126,7 @@
 		0A0D195921E660A4006CD668 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				0A87FB7C21E7F8F8007CFB12 /* Magic.swift */,
 				0A0D195721E6609C006CD668 /* Pokemon.swift */,
 			);
 			path = Model;
@@ -200,14 +215,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				0A0D195521E66051006CD668 /* PokemonAPIClient.swift in Sources */,
+				0A87FB7B21E7F8DD007CFB12 /* imageHelper.swift in Sources */,
 				0A0D195C21E6646E006CD668 /* PokemonCardCell.swift in Sources */,
 				0A0D196021E66596006CD668 /* MagicViewController.swift in Sources */,
 				0A0D195821E6609C006CD668 /* Pokemon.swift in Sources */,
+				0A87FB7A21E7F8DD007CFB12 /* AppError.swift in Sources */,
+				0A87FB7921E7F8DD007CFB12 /* NetworkHelper.swift in Sources */,
 				0A0D196621E66AB7006CD668 /* PokemonAttackDetailCell.swift in Sources */,
 				0A0D195E21E66575006CD668 /* MagicCardCell.swift in Sources */,
+				0A87FB7821E7F8DD007CFB12 /* MagicIAPIClient .swift in Sources */,
 				0A0D196221E66614006CD668 /* MagicDetailViewController.swift in Sources */,
 				0A0D194321E6600D006CD668 /* PokemonViewController.swift in Sources */,
 				0A0D194121E6600D006CD668 /* AppDelegate.swift in Sources */,
+				0A87FB7D21E7F8F8007CFB12 /* Magic.swift in Sources */,
 				0A0D196421E6661E006CD668 /* PokemonDetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
